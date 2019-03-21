@@ -12,6 +12,11 @@
 		53A67A44221AF38300671489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A67A42221AF38300671489 /* Main.storyboard */; };
 		53A67A46221AF38500671489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53A67A45221AF38500671489 /* Assets.xcassets */; };
 		53A67A49221AF38500671489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53A67A47221AF38500671489 /* LaunchScreen.storyboard */; };
+		53A67A51221B140200671489 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A67A50221B140200671489 /* SwipingController.swift */; };
+		53A67A53221B25AF00671489 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A67A52221B25AF00671489 /* PageCell.swift */; };
+		53A67A55221B2EC900671489 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A67A54221B2EC900671489 /* Page.swift */; };
+		53A67A57221B45EC00671489 /* SwipingController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A67A56221B45EC00671489 /* SwipingController+extension.swift */; };
+		53A67A59221B46D000671489 /* SwipingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A67A58221B46D000671489 /* SwipingController+UICollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		53A67A45221AF38500671489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53A67A48221AF38500671489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53A67A4A221AF38500671489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53A67A50221B140200671489 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		53A67A52221B25AF00671489 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		53A67A54221B2EC900671489 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		53A67A56221B45EC00671489 /* SwipingController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+extension.swift"; sourceTree = "<group>"; };
+		53A67A58221B46D000671489 /* SwipingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwipingController+UICollectionView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				53A67A45221AF38500671489 /* Assets.xcassets */,
 				53A67A47221AF38500671489 /* LaunchScreen.storyboard */,
 				53A67A4A221AF38500671489 /* Info.plist */,
+				53A67A50221B140200671489 /* SwipingController.swift */,
+				53A67A52221B25AF00671489 /* PageCell.swift */,
+				53A67A54221B2EC900671489 /* Page.swift */,
+				53A67A56221B45EC00671489 /* SwipingController+extension.swift */,
+				53A67A58221B46D000671489 /* SwipingController+UICollectionView.swift */,
 			);
 			path = AutoLayout;
 			sourceTree = "<group>";
@@ -137,6 +152,11 @@
 			files = (
 				53A67A41221AF38300671489 /* ViewController.swift in Sources */,
 				53A67A3F221AF38300671489 /* AppDelegate.swift in Sources */,
+				53A67A53221B25AF00671489 /* PageCell.swift in Sources */,
+				53A67A59221B46D000671489 /* SwipingController+UICollectionView.swift in Sources */,
+				53A67A51221B140200671489 /* SwipingController.swift in Sources */,
+				53A67A55221B2EC900671489 /* Page.swift in Sources */,
+				53A67A57221B45EC00671489 /* SwipingController+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W9N28KCR5;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6W9N28KCR5;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
